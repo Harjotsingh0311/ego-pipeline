@@ -1,0 +1,40 @@
+source_root: C:\workstation\3RD YEAR\Egocenrtic
+directories:
+- raw
+- interim
+- episodes
+- mcap
+- calib
+- reports
+- code
+- configs
+- notebooks
+devices:
+  head:
+    folder: head
+    serial: a45140
+    camera_name: cam_high
+  left:
+    folder: left
+    serial: a60617
+    camera_name: cam_left_wrist
+  right:
+    folder: right
+    serial: a59879
+    camera_name: cam_right_wrist
+nominal_fps: 30
+chunk_seconds_hypothesis: 180
+thresholds:
+  freeze_run_frames: 5
+  coverage_floor_pct: 30
+  joint_conf_cutoff: 0.5
+  min_joints: 15
+  max_episode_sec: 1200
+  pairing_tolerance_ms: 100
+time:
+  assumed_timezone: Asia/Kolkata
+  root_video_local_time: '2026-10-11T20:08:44'
+identity:
+  vendor_name: TBD
+  operator_id: TBD
+  site: TBD

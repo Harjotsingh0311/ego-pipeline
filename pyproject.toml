@@ -1,0 +1,18 @@
+[project]
+name = "ego-pipeline"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "av>=19.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.0.6",
+    "pyyaml>=6.0.3",
+    "tqdm>=4.70.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
