@@ -1,0 +1,498 @@
+fps: 30
+chunk_frames: 5400
+session_zero_us: 7782913
+note: stop_i_excl and n_stop_excl are exclusive
+episodes:
+- id: ep01
+  task_id: '0001'
+  task_name: wash and chop onion, tomato, ginger and coriander
+  start_s: 272.0
+  stop_s: 980.0
+  duration_s: 708.0
+  devices:
+    head:
+      segments:
+      - rank: 2
+        clip: a45140-H-0037
+        start_i: 2759
+        stop_i_excl: 5400
+        n_start: 8159
+        n_stop_excl: 10800
+      - rank: 3
+        clip: a45140-H-0038
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 10800
+        n_stop_excl: 16200
+      - rank: 4
+        clip: a45140-H-0039
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 16200
+        n_stop_excl: 21600
+      - rank: 5
+        clip: a45140-H-0040
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 21600
+        n_stop_excl: 27000
+      - rank: 6
+        clip: a45140-H-0041
+        start_i: 0
+        stop_i_excl: 2399
+        n_start: 27000
+        n_stop_excl: 29399
+      sources:
+      - a45140-H-0037
+      - a45140-H-0038
+      - a45140-H-0039
+      - a45140-H-0040
+      - a45140-H-0041
+      n_frames: 21240
+      black_frames: 0
+      seams_crossed:
+      - 2
+      - 3
+      - 4
+      - 5
+      device_end_s: 2579.093
+      ended_before_stop: false
+    left:
+      segments:
+      - rank: 2
+        clip: a60617-H-0021
+        start_i: 2761
+        stop_i_excl: 5400
+        n_start: 8161
+        n_stop_excl: 10800
+      - rank: 3
+        clip: a60617-H-0022
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 10800
+        n_stop_excl: 16200
+      - rank: 4
+        clip: a60617-H-0023
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 16200
+        n_stop_excl: 21600
+      - rank: 5
+        clip: a60617-H-0024
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 21600
+        n_stop_excl: 27000
+      - rank: 6
+        clip: a60617-H-0025
+        start_i: 0
+        stop_i_excl: 2400
+        n_start: 27000
+        n_stop_excl: 29400
+      sources:
+      - a60617-H-0021
+      - a60617-H-0022
+      - a60617-H-0023
+      - a60617-H-0024
+      - a60617-H-0025
+      n_frames: 21239
+      black_frames: 0
+      seams_crossed:
+      - 2
+      - 3
+      - 4
+      - 5
+      device_end_s: 2541.828
+      ended_before_stop: false
+      damaged_frames: 0
+    right:
+      segments:
+      - rank: 2
+        clip: a59879-H-0027
+        start_i: 2761
+        stop_i_excl: 5400
+        n_start: 8161
+        n_stop_excl: 10800
+      - rank: 3
+        clip: a59879-H-0028
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 10800
+        n_stop_excl: 16200
+      - rank: 4
+        clip: a59879-H-0029
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 16200
+        n_stop_excl: 21600
+      - rank: 5
+        clip: a59879-H-0030
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 21600
+        n_stop_excl: 27000
+      - rank: 6
+        clip: a59879-H-0031
+        start_i: 0
+        stop_i_excl: 2400
+        n_start: 27000
+        n_stop_excl: 29400
+      sources:
+      - a59879-H-0027
+      - a59879-H-0028
+      - a59879-H-0029
+      - a59879-H-0030
+      - a59879-H-0031
+      n_frames: 21239
+      black_frames: 0
+      seams_crossed:
+      - 2
+      - 3
+      - 4
+      - 5
+      device_end_s: 2562.791
+      ended_before_stop: false
+  flags:
+  - INFO over 600 s
+  - INFO crosses chunk seam [2, 3, 4, 5] on head
+  - INFO crosses chunk seam [2, 3, 4, 5] on left
+  - INFO crosses chunk seam [2, 3, 4, 5] on right
+- id: ep02
+  task_id: '0002'
+  task_name: heat butter in the pan and temper the spices
+  start_s: 1032.0
+  stop_s: 1345.0
+  duration_s: 313.0
+  devices:
+    head:
+      segments:
+      - rank: 6
+        clip: a45140-H-0041
+        start_i: 3959
+        stop_i_excl: 5400
+        n_start: 30959
+        n_stop_excl: 32400
+      - rank: 7
+        clip: a45140-H-0042
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 32400
+        n_stop_excl: 37800
+      - rank: 8
+        clip: a45140-H-0043
+        start_i: 0
+        stop_i_excl: 2549
+        n_start: 37800
+        n_stop_excl: 40349
+      sources:
+      - a45140-H-0041
+      - a45140-H-0042
+      - a45140-H-0043
+      n_frames: 9390
+      black_frames: 0
+      seams_crossed:
+      - 6
+      - 7
+      device_end_s: 2579.093
+      ended_before_stop: false
+    left:
+      segments:
+      - rank: 6
+        clip: a60617-H-0025
+        start_i: 3960
+        stop_i_excl: 5400
+        n_start: 30960
+        n_stop_excl: 32400
+      - rank: 7
+        clip: a60617-H-0026
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 32400
+        n_stop_excl: 37800
+      - rank: 8
+        clip: a60617-H-0027
+        start_i: 0
+        stop_i_excl: 2550
+        n_start: 37800
+        n_stop_excl: 40350
+      sources:
+      - a60617-H-0025
+      - a60617-H-0026
+      - a60617-H-0027
+      n_frames: 9390
+      black_frames: 0
+      seams_crossed:
+      - 6
+      - 7
+      device_end_s: 2541.828
+      ended_before_stop: false
+      damaged_frames: 0
+    right:
+      segments:
+      - rank: 6
+        clip: a59879-H-0031
+        start_i: 3960
+        stop_i_excl: 5400
+        n_start: 30960
+        n_stop_excl: 32400
+      - rank: 7
+        clip: a59879-H-0032
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 32400
+        n_stop_excl: 37800
+      - rank: 8
+        clip: a59879-H-0033
+        start_i: 0
+        stop_i_excl: 2550
+        n_start: 37800
+        n_stop_excl: 40350
+      sources:
+      - a59879-H-0031
+      - a59879-H-0032
+      - a59879-H-0033
+      n_frames: 9390
+      black_frames: 0
+      seams_crossed:
+      - 6
+      - 7
+      device_end_s: 2562.791
+      ended_before_stop: false
+  flags:
+  - INFO crosses chunk seam [6, 7] on head
+  - INFO crosses chunk seam [6, 7] on left
+  - INFO crosses chunk seam [6, 7] on right
+- id: ep03
+  task_id: '0003'
+  task_name: mix the tempered base with the other ingredients and milk
+  start_s: 1405.0
+  stop_s: 1752.0
+  duration_s: 347.0
+  devices:
+    head:
+      segments:
+      - rank: 8
+        clip: a45140-H-0043
+        start_i: 4349
+        stop_i_excl: 5400
+        n_start: 42149
+        n_stop_excl: 43200
+      - rank: 9
+        clip: a45140-H-0044
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 43200
+        n_stop_excl: 48600
+      - rank: 10
+        clip: a45140-H-0045
+        start_i: 0
+        stop_i_excl: 3959
+        n_start: 48600
+        n_stop_excl: 52559
+      sources:
+      - a45140-H-0043
+      - a45140-H-0044
+      - a45140-H-0045
+      n_frames: 10410
+      black_frames: 0
+      seams_crossed:
+      - 8
+      - 9
+      device_end_s: 2579.093
+      ended_before_stop: false
+    left:
+      segments:
+      - rank: 8
+        clip: a60617-H-0027
+        start_i: 4350
+        stop_i_excl: 5400
+        n_start: 42150
+        n_stop_excl: 43200
+      - rank: 9
+        clip: a60617-H-0028
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 43200
+        n_stop_excl: 48600
+      - rank: 10
+        clip: a60617-H-0029
+        start_i: 0
+        stop_i_excl: 3960
+        n_start: 48600
+        n_stop_excl: 52560
+      sources:
+      - a60617-H-0027
+      - a60617-H-0028
+      - a60617-H-0029
+      n_frames: 10410
+      black_frames: 0
+      seams_crossed:
+      - 8
+      - 9
+      device_end_s: 2541.828
+      ended_before_stop: false
+      damaged_frames: 0
+    right:
+      segments:
+      - rank: 8
+        clip: a59879-H-0033
+        start_i: 4350
+        stop_i_excl: 5400
+        n_start: 42150
+        n_stop_excl: 43200
+      - rank: 9
+        clip: a59879-H-0034
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 43200
+        n_stop_excl: 48600
+      - rank: 10
+        clip: a59879-H-0035
+        start_i: 0
+        stop_i_excl: 3959
+        n_start: 48600
+        n_stop_excl: 52559
+      sources:
+      - a59879-H-0033
+      - a59879-H-0034
+      - a59879-H-0035
+      n_frames: 10409
+      black_frames: 0
+      seams_crossed:
+      - 8
+      - 9
+      device_end_s: 2562.791
+      ended_before_stop: false
+  flags:
+  - INFO crosses chunk seam [8, 9] on head
+  - INFO crosses chunk seam [8, 9] on left
+  - INFO crosses chunk seam [8, 9] on right
+- id: ep04
+  task_id: '0004'
+  task_name: cook the base on the stove until the food is ready
+  start_s: 1905.0
+  stop_s: 2505.0
+  duration_s: 600.0
+  devices:
+    head:
+      segments:
+      - rank: 11
+        clip: a45140-H-0046
+        start_i: 3149
+        stop_i_excl: 5400
+        n_start: 57149
+        n_stop_excl: 59400
+      - rank: 12
+        clip: a45140-H-0047
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 59400
+        n_stop_excl: 64800
+      - rank: 13
+        clip: a45140-H-0048
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 64800
+        n_stop_excl: 70200
+      - rank: 14
+        clip: a45140-H-0049
+        start_i: 0
+        stop_i_excl: 4949
+        n_start: 70200
+        n_stop_excl: 75149
+      sources:
+      - a45140-H-0046
+      - a45140-H-0047
+      - a45140-H-0048
+      - a45140-H-0049
+      n_frames: 18000
+      black_frames: 0
+      seams_crossed:
+      - 11
+      - 12
+      - 13
+      device_end_s: 2579.093
+      ended_before_stop: false
+    left:
+      segments:
+      - rank: 11
+        clip: a60617-H-0030
+        start_i: 3150
+        stop_i_excl: 5400
+        n_start: 57150
+        n_stop_excl: 59400
+      - rank: 12
+        clip: a60617-H-0031
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 59400
+        n_stop_excl: 64800
+      - rank: 13
+        clip: a60617-H-0032
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 64800
+        n_stop_excl: 70200
+      - rank: 14
+        clip: a60617-H-0033
+        start_i: 0
+        stop_i_excl: 4949
+        n_start: 70200
+        n_stop_excl: 75149
+      sources:
+      - a60617-H-0030
+      - a60617-H-0031
+      - a60617-H-0032
+      - a60617-H-0033
+      n_frames: 17999
+      black_frames: 0
+      seams_crossed:
+      - 11
+      - 12
+      - 13
+      device_end_s: 2541.828
+      ended_before_stop: false
+      damaged_frames: 0
+    right:
+      segments:
+      - rank: 11
+        clip: a59879-H-0036
+        start_i: 3149
+        stop_i_excl: 5400
+        n_start: 57149
+        n_stop_excl: 59400
+      - rank: 12
+        clip: a59879-H-0037
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 59400
+        n_stop_excl: 64800
+      - rank: 13
+        clip: a59879-H-0038
+        start_i: 0
+        stop_i_excl: 5400
+        n_start: 64800
+        n_stop_excl: 70200
+      - rank: 14
+        clip: a59879-H-0039
+        start_i: 0
+        stop_i_excl: 4948
+        n_start: 70200
+        n_stop_excl: 75148
+      sources:
+      - a59879-H-0036
+      - a59879-H-0037
+      - a59879-H-0038
+      - a59879-H-0039
+      n_frames: 17999
+      black_frames: 0
+      seams_crossed:
+      - 11
+      - 12
+      - 13
+      device_end_s: 2562.791
+      ended_before_stop: false
+  flags:
+  - INFO crosses chunk seam [11, 12, 13] on head
+  - INFO crosses chunk seam [11, 12, 13] on left
+  - INFO crosses chunk seam [11, 12, 13] on right
