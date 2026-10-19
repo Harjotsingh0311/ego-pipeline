@@ -1,8 +1,15 @@
 .venv/
+.venv-pose/
 raw/
 episodes/
 mcap/
 __pycache__/
 .ipynb_checkpoints/
-.mp4
-.zip
+*.mp4
+*.zip
+interim/
+reports/
+work/
+calib/
+configs/
+tools/

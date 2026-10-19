@@ -4,10 +4,15 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "av>=19.0.1",
+    "foxglove-schemas-protobuf>=0.4.0",
+    "jsonschema>=4.26.0",
     "matplotlib>=3.11.2",
+    "mcap>=1.5.0",
+    "mcap-protobuf-support>=0.5.4",
     "numpy>=2.5.4",
-    "opencv-python>=5.0.0.93",
+    "opencv-python==4.14.0.94",
     "pandas>=3.0.6",
+    "protobuf>=7.36.2",
     "pyyaml>=6.0.3",
     "tqdm>=4.70.1",
 ]
